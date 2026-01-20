@@ -1,0 +1,20 @@
+baseURL = 'https://sunyzhi55.github.io/hugo-reimu-blog/'
+
+title = '氣體源流'
+theme = ["github.com/D-Sketon/hugo-theme-reimu"]
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh-CN'
+[languages]
+[languages.zh-CN]
+languageName = '简体中文'
+weight = 1
+hasCJKLanguage = true
+[markup.highlight]
+guessSyntax = true
+noClasses = false
+
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
+delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
