@@ -10,6 +10,9 @@ cover: images/banner-600w.webp
 comments: true
 ---
 
+![image-20240117154736639](/hugo-reimu-blog/images/image_2.png)
+
+
 # Binary Search
 本文介绍二分查找算法及其实现。
 ## 什么是二分查找

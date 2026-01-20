@@ -4,6 +4,14 @@ title = '氣體源流'
 theme = ["github.com/D-Sketon/hugo-theme-reimu"]
 languageCode = 'zh-CN'
 defaultContentLanguage = 'zh-CN'
+
+tags = ['Blog', 'Chinese', 'Responsive', 'Dark', 'Light']
+features = ['Blog', 'Chinese', 'Responsive', 'Dark', 'Light']
+
+[author]
+name = '🕯 Glow'
+homepage = 'https://sunyzhi55.github.io/'
+
 [languages]
 [languages.zh-CN]
 languageName = '简体中文'
@@ -13,6 +21,8 @@ hasCJKLanguage = true
 guessSyntax = true
 noClasses = false
 
+[markup.goldmark.renderer]
+unsafe = true
 
 [markup.goldmark.extensions.passthrough]
 enable = true
